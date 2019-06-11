@@ -1,6 +1,6 @@
 {
   "name": "noto-color-emoji",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "noto fonts emoji",
   "main": "index.js",
   "style": "noto-color-emoji.css",
