@@ -18,7 +18,7 @@ var style = html`
     ${requireStyle('noto-color-emoji')} 
 
     body {
-      font-family: NotoColorEmoji;
+      font-family: arial, NotoColorEmoji;
     }
   </style>
 `
@@ -31,4 +31,6 @@ var hello = html`
 document.body.appendChild(hello)
 ```
 
-Notes : this "just works" in electron apps, but for bundled apps read `require-style` documentation about bundling transforms.
+Notes :
+- order of fonts in `font-family` css matters. I recommend you make `NotoColorEmoji` a fallback (as in example), otherwise it will try to take over all your fonts
+- this "just works" in electron apps, but for bundled apps read `require-style` documentation about bundling transforms.
