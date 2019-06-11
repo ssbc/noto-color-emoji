@@ -1,0 +1,25 @@
+{
+  "name": "noto-color-emoji",
+  "version": "0.0.1",
+  "description": "noto fonts emoji",
+  "main": "index.js",
+  "style": "noto-color-emoji.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssbc/noto-color-emoji.git"
+  },
+  "keywords": [
+    "noto",
+    "fonts",
+    "emoji"
+  ],
+  "author": "mixmix",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/ssbc/noto-color-emoji/issues"
+  },
+  "homepage": "https://github.com/ssbc/noto-color-emoji#readme"
+}
